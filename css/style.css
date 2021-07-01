@@ -49,6 +49,7 @@ body {
   color: white;
   text-decoration: none;
   font-family: "Lato";
+  transition: 0.3s;
 }
 
 .header-btn a:hover {
@@ -68,12 +69,12 @@ body {
   font-size: 90px;
   font-weight: 700;
   font-family: "Raleway";
-  margin-bottom: 20px;
 }
 
 .main-title-sub {
   color: #c0c0c0;
   font-size: 30px;
+  margin-top: 20px;
 }
 
 .section-content {
@@ -98,7 +99,6 @@ body {
 
 .section-content-title {
   color: white;
-  margin-bottom: 35px;
   font-size: 24px;
   font-family: "Raleway";
 }
@@ -106,6 +106,7 @@ body {
 .section-content-text {
   font-size: 20px;
   line-height: 25px;
+  margin-top: 35px;
   color: white;
   font-family: "Lato";
   font-weight: 100;
@@ -120,6 +121,7 @@ body {
 
 .article-content__image-lists {
   margin-bottom: 90px;
+  margin-top: 40px;
 }
 
 .article-content__image-lists li {
@@ -130,6 +132,7 @@ body {
 }
 
 .article-content__image-lists li {
+  transition: 0.3s;
   opacity: 0.7;
 }
 
@@ -150,12 +153,16 @@ body {
   font-family: "Raleway";
   color: #333;
   font-size: 24px;
-  margin-bottom: 40px;
+}
+
+.article-content__box {
+  margin-top: 90px;
 }
 
 .article-content-text {
   margin-left: 100px;
   width: 60%;
+  float: left;
 }
 
 .article-content-text p {
@@ -165,22 +172,22 @@ body {
   letter-spacing: 1px;
   color: #333;
   line-height: 25px;
-  float: left;
 }
 
 .article-btn {
   float: left;
+  margin-left: 90px;
 }
 
 .article-btn a {
   padding: 14px 20px;
-  margin-left: 90px;
   background-color: #74cfae;
   box-sizing: border-box;
   display: inline-block;
   color: white;
   font-size: 12px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .article-btn a:hover {
@@ -196,19 +203,22 @@ body {
 }
 
 .section-skills-title {
-  margin-bottom: 50px;
   font-size: 25px;
   color: white;
   font-family: "Raleway";
 }
 
-.section-skills__logo li {
-  margin-right: 180px;
-  float: left;
+.section-skills__logo {
+  margin-top: 50px;
 }
 
-.section-skills__logo li:last-child {
-  margin-right: 0;
+.section-skills__logo li {
+  margin-left: 180px;
+  display: inline-block;
+}
+
+.section-skills__logo li:first-child {
+  margin-left: 0;
 }
 
 .section-skills__logo p {
@@ -238,6 +248,7 @@ body {
   font-size: 50px;
   color: #74cfae;
   box-sizing: border-box;
+  transition: 0.3s;
 }
 
 .nav-content a:hover {
@@ -259,5 +270,5 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  
+
 }
