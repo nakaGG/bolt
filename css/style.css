@@ -14,6 +14,10 @@
 
 body {
   padding-top: 80px;
+  font-family: "Lato";
+  font-weight: 100;
+  font-size: 12px;
+  color: #333;
 }
 
 .header {
@@ -47,7 +51,6 @@ body {
   font-size: 12px;
   color: white;
   text-decoration: none;
-  font-family: "Lato";
   transition: 0.3s;
 }
 
@@ -106,8 +109,6 @@ body {
   line-height: 25px;
   margin-top: 35px;
   color: white;
-  font-family: "Lato";
-  font-weight: 100;
 }
 
 .article-content {
@@ -117,7 +118,7 @@ body {
 }
 
 .article-content__image-lists {
-  margin: 40px 0 90px;
+  margin: 40px 0 0;
 }
 
 .article-content__image-lists li {
@@ -146,7 +147,6 @@ body {
 
 .article-content-title {
   font-family: "Raleway";
-  color: #333;
   font-size: 24px;
 }
 
@@ -161,11 +161,8 @@ body {
 }
 
 .article-content-text p {
-  font-family: "Lato";
   font-size: 21px;
-  font-weight: 100;
   letter-spacing: 1px;
-  color: #333;
   line-height: 25px;
 }
 
