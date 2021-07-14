@@ -6,6 +6,11 @@
   clear: both;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .inner {
   text-align: center;
   margin:0 auto;
