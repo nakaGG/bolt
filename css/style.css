@@ -93,6 +93,10 @@ body {
   font-weight: 700;
 }
 
+.is-raleway {
+  font-family: "Raleway";
+}
+
 .br-sp {
   display: none;
 }
@@ -294,7 +298,7 @@ body {
 
   .section-content__image-box {
     float: none;
-    width: initial;
+    width: auto;
   }
 
   .section-content__text-box {
@@ -304,7 +308,7 @@ body {
 
   .article-content__image-lists li {
     float: none;
-    margin: initial;
+    margin: 0;
   }
 
   .article-content__image-lists li:nth-child(3n+4) {
@@ -316,19 +320,18 @@ body {
   }
 
   .article-content-text {
-    width: initial;
-    margin: initial;
+    width: auto;
+    margin: 0;
     float: none;
   }
 
   .article-btn {
     float: none;
-    margin-left: initial;
-    margin-top: 40px;
+    margin: 40px 0 0;
   }
 
   .section-skills__logo li {
-    margin: initial;
+    margin: 0;
     display: block;
   }
 
@@ -343,7 +346,7 @@ body {
   }
 
   .header-sp-btn {
-    display: inherit;
+    display: block;
   }
 
   .title {
@@ -361,6 +364,10 @@ body {
   .main-title-sub {
     font-size: 30px;
     margin-top: 20px;
+  }
+
+  .section-content__text-box {
+    width: auto;
   }
 
   .nav-content {
